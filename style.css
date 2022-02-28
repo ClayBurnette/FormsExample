@@ -20,7 +20,6 @@
   padding: 7px 7px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 10px;
   float: right;
   margin: 5px;
@@ -33,7 +32,6 @@
     padding: 7px 7px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 10px;
     float: right;
     margin: 5px; 
@@ -48,8 +46,6 @@
     border-radius: 5px;
     box-shadow: 0px -1px 10px 5px black;
     text-align: center;
-    
-  
   }
 
 .email {
@@ -74,6 +70,5 @@
 
   .images {
     max-width: 100%;
-    max-height: 100%; 
-    
+    max-height: 100%;  
 }
