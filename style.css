@@ -2,43 +2,54 @@
     background-color:aqua;
 }
 
+.nav {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid #000;
+}
+
+
 .navigation {
-    display: flex;
-    flex-grow: 1;
-    min-height: 10px;
-    align-items: right;
-    float: right;
-    padding: 5px;
-    margin: 5px;
-    color: white;
+  background-color: aqua;
+  border: none;
+  color: white;
+  padding: 7px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  float: right;
+  margin: 5px;
   }
 
   .navigation1 {
-    display: flex;
-    flex-grow: 1;
-    min-height: 10px;
-    align-items: right;
-    float: right;
-    padding: 5px;
-    margin: 5px;
+    background-color: aqua;
+    border: none;
     color: white;
-    
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    float: right;
+    margin: 5px; 
   }
 
   .form {
     background-color: white;
-    max-width: 350px;
-    display: block;
-    flex-direction: column;
-    padding: 10px;
-    margin: 0 auto;
+    max-width: 200px;
+    padding: 100px;
+    margin: 0px auto;
     margin-bottom: 10px;
     border-radius: 5px;
-    z-index: 2;
-    float: center;
-    clear: right;
     box-shadow: 0px -1px 10px 5px black;
     text-align: center;
+    
+  
   }
 
 .email {
